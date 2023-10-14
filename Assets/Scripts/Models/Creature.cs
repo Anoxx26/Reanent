@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Models
 {
-    public class Creature
+    public class Creature : MonoBehaviour
     {
         [SerializeField]
         protected int hp;

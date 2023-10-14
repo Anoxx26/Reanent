@@ -1,7 +1,4 @@
 using Assets.Scripts.Models;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 public class Player : Creature
 {
@@ -11,9 +8,14 @@ public class Player : Creature
         this.damage = damage;
     }
 
-    public Player() 
+    public Player()
     {
         hp = 100;
         damage = 10;
+    }
+
+    public void Attack(Enemy enemy)
+    {
+        enemy.GetDamage(Damage);
     }
 }
