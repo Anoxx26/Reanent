@@ -3,15 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Creature
+public class Enemy : Creature
 {
-    public Player(int hp, int damage)
+    public Enemy(int hp, int damage)
     {
         this.hp = hp;
         this.damage = damage;
     }
 
-    public Player() 
+    public Enemy()
     {
         hp = 100;
         damage = 10;
