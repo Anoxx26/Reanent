@@ -10,7 +10,7 @@ namespace Assets.Scripts
         private Creature creature;
 
         [SerializeField]
-        private TextMeshPro text;
+        private TMP_Text text;
 
         public void ShowHp()
         {
